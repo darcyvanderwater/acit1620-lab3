@@ -1,15 +1,9 @@
 html,
-
-
-
 body {
     margin: 0;
     padding: 0;
     height: 100%;
 }
-h1 {
-    background-color: hsl#088080;
-    }
 
 form {
     border: 1px solid #ccc;
