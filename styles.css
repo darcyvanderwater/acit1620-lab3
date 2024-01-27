@@ -4,7 +4,15 @@ body {
     padding: 0;
     height: 100%;
 }
-
+.Title{
+    text-align: center;
+}
+.Tagline{
+    text-align: center;
+}
+.img{
+   max-width 20%
+}
 form {
     border: 1px solid #ccc;
     padding: 1rem;
