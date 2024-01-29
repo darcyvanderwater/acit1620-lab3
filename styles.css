@@ -21,20 +21,24 @@ form {
     padding: 1rem;
 }
 .linklist {
+    list-style-type: none;
     text-align: right;
-    float: none;
+    float: left;
     display: flex;
     flex-direction:column;
-    list-style-type: none;
     margin-bottom: 100%;
     margin-right: 50px;
     padding-bottom: 1rem;
+}
     
 @media screen and (max-width: 600px) {
-    .linklist{
-        display: block;
+    .linklist {
+        display: flex;
+        flex-direction: row;
         position: absolute;
-    }
+        margin-bottom: 0%;
+    }   
+}
 }
     
 }
