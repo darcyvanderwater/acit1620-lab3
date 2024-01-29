@@ -23,16 +23,28 @@ form {
 .linklist {
     text-align: right;
     float: left;
-    display: inline-block;
+    display: flex;
+    flex-direction:column;
     list-style-type: none;
     margin-bottom: 100%;
     margin-right: 50px;
+    padding-bottom: 1rem;
+    
+    @media (max-width: 600px){
+        display:flex;
+        flex-direction: row;
+        position:fixed;
+    }
+    
     
 }
 .link{
-    margin-bottom: 1rem;
     text-decoration:none;
     color: #008080;
+    @media (max-width: 600px){
+        margin-right: 1rem;
+    }
+    
     
 }
 .bodytext{
